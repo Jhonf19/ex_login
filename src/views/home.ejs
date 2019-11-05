@@ -1,0 +1,16 @@
+<% include partials/head %>
+
+<h1>home</h1>
+
+<div class="container">
+  <div class="">
+    <a class="btn btn-danger" href="/logout">Salir</a>
+  </div>
+  <ul>
+    <li>id:</li><%= user._id    %>
+    <li>user:</li><%= user.local.email    %>
+    <li>pass:</li><%= user.local.password    %>
+  </ul>
+</div>
+
+  <%  include partials/foot  %>

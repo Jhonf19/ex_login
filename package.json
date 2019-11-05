@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node src/server.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "express-session": "^1.17.0",
     "mongoose": "^5.7.8",
     "morgan": "^1.9.1",
-    "passport": "^0.4.0"
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   }
 }
